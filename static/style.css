@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #DB7093;
+}
+header{
+    display: block;
+    font: Arial;
+    width: 100%;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+header h1{
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+header a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    text-decoration: none;
+    background: #FFA960;
+    color: #0099E0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+header a:hover{background-color:white;color:white}
+header p{
+    font-size: 22px;
+}
+#grid-container{
+    background: #039FE1;
+    width: 460px;
+    height: 460px;
+    padding: 0;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 10px;
+    margin: 0rem 2rem 0rem 2rem;
+}
+.grid{
+    width: 10px;
+    height: 10px;
+    background: #FFB4C2;
+    border-radius: 6px;
+
+    position: absolute;
+}
+.number-cell{
+    font: Arial;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: round;
+    color: transparent;
+}
+#contenedor{
+    display: flex;
+    overflow: hidden;
+}
+
+
+#score-div{
+    margin: 0rem 2rem 0rem 2rem;
+    width: 460px;
+    height: 500px;
+    border-style: solid;
+    position: relative;
+    background-color: #039FE1;
+    border-color: #039FE1;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+#score-div::-webkit-scrollbar {
+    display: none;
+}
+
+header input{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    text-decoration: none;
+    background: #0099E0;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #0099E0;
+    border-style: solid;
+}
+header input:hover{background-color:#0099E0;color:white}
+
+
+#puntuacion{
+    display: flex;
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    font-size: 2rem;
+    width: 80%;
+    height: 10%;
+    margin: 2rem 2rem 0rem 2rem;
+    background-color: #FFB4C2;
+    border-radius: 10px;
+    color: black;
+}
+
+/* #9f8b77 */
+
+#twitter{
+    background-color: #039FE1;
+    border-radius: 10px;
+    margin: 0rem 2rem 0rem 2rem;
+    width: 460px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+#user-a{
+    display: flex;
+    background-color: #FFB4C2;
+    border-radius: 10px;
+    height: 15%;
+    width: 90%;
+    margin: 1rem;
+}
+
+#user-a #foto{
+    border-radius: 100%;
+    height: 85%;
+    width: 15%;
+    margin: 0.1rem;
+    overflow: hidden;
+}
+#foto img{
+    height: 100%;
+    width: 100%;
+}
+
+#user-a p{
+    margin: 0.2rem 0rem 0rem 0.2rem;
+    font-size: 1rem;
+}
+
+#contenido{
+    height: 75%;
+    width: 90%;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+#contenido img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#fondo-contenido{
+    background-color: #d4b99da5;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: -0.5rem;
+    overflow: hidden;
+}
+
+
+#twitter::-webkit-scrollbar {
+    display: none;
+}
+
+#tutorial-contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto; 
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    background-color: #FFB4C2;
+    border-radius: 10px;
+}
+
+
+#dos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#dos img{
+    background-size: auto;
+    height: 100%;
+    width: 60%;
+
+}
+#dos p{
+    font-size: 2rem;
+    align-items: center;
+}
