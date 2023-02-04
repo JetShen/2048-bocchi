@@ -1,5 +1,7 @@
 /**
  * Created by Administrator on 2015/2/17.
+ * this script was taken from @hey-adi42
+ * https://gist.github.com/hey-adi42/c1b28c7bbc5571a1856a
  */
 function showNumberWithAnimation( i , j , randNumber ){
 
